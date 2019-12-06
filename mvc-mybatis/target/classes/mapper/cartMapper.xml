@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="org.kpu.myweb.mapper.CartMapper">
+	<select id = "select" resultType="org.kpu.myweb.domain.CartVO">
+ 	 <![CDATA[
+ 		select * from cart where cid = #{cid}
+ 	 ]]> 
+ 	</select>
+ 	
+ 	<select id = "cart" resultType="org.kpu.myweb.domain.CartVO">
+ 		select * from cart where cartid = #{cartid}
+ 	</select>
+ 	
+ 	<insert id="insert">
+ 		insert into cart (pnum, pname, pprice, count, cid) values
+ 		(#{pnum}, #{pname}, #{pprice}, #{count}, #{cid})
+ 	</insert> 
+ 	
+ 	<delete id="delete">
+ 		delete from cart where cartid = #{cartid};
+ 	</delete>
+</mapper>
