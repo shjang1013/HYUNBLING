@@ -12,3 +12,4 @@
 * Amazon EC2 : Amazon Linux
 * Amazon S3
 * Amazon RDS
+* Route 53
