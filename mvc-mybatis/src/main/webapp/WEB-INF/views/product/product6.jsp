@@ -116,7 +116,7 @@
 		<img src="https://shjang-bucket1.s3.ap-northeast-2.amazonaws.com/ring3.png" width="250" height="300" alt="earing" class="img-thumbnail">
 	</div>
 	<div class="col-md-3">
-		<form method="post" action="http://www.hyunbling.cf/mvc-mybatis/cart/">
+		<form method="post" action="http://www.hyunbling.cf/cart/">
 		<table class="table">
 		<tr>
 			<td>상품번호</td>

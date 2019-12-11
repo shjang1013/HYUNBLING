@@ -112,7 +112,7 @@
 <center>
 	<h4 class="mb-3">MEMBER MODIFY</h4>
 	<div class="col-md-6 order-md-3 text-left">
-		<form class="needs-validation" name=form1 action="http://www.hyunbling.cf/mvc-mybatis/client/modify" method="post">
+		<form class="needs-validation" name=form1 action="http://www.hyunbling.cf/client/modify" method="post">
 		<c:forEach var="client" items="${client}">
         <div class="mb-3">
 			<label for="id">아이디</label>

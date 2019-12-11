@@ -108,7 +108,6 @@
     <hr>
   </section>
 <br>
-<hr>
 <center>
 <br><br>
 <div>

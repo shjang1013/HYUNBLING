@@ -112,7 +112,7 @@
 <center>
 	<h4 class="mb-3">MEMBER JOIN</h4>
 	<div class="col-md-6 order-md-3 text-left">
-      <form class="needs-validation" name=form1 action="http://www.hyunbling.cf/mvc-mybatis/join/" method="post">
+      <form class="needs-validation" name=form1 action="http://www.hyunbling.cf/join/" method="post">
         <div class="mb-3">
           <label for="id">아이디</label>
           <input type="text" class="form-control" name="id" placeholder="공백없이 입력하세요 ">

@@ -109,7 +109,7 @@
   </section>
 
 <br> 
-<form name=form1 action="http://www.hyunbling.cf/mvc-mybatis/order/" method="post">
+<form name=form1 action="http://www.hyunbling.cf/order/" method="post">
 <div class="row justify-content-center">
 	<div class="col-md-8">
 	<h4 class="mb-3" align=center>Cart List</h4>	

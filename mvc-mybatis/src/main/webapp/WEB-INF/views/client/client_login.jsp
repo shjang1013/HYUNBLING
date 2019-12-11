@@ -111,7 +111,7 @@
  <br>
  <h3 align=center>LOGIN</h3>
  <div align=center>                                             
- <form method=POST action="http://www.hyunbling.cf/mvc-mybatis/login/">
+ <form method=POST action="http://www.hyunbling.cf/login/">
  <table id="login">
 	<tr>
 		<td style="font-size : 12px;">아이디</td>

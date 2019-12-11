@@ -13,7 +13,7 @@
 		 
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://sohyeon-dbinstance-1.cwhladjcpfcr.ap-northeast-2.rds.amazonaws.com:3306/springdb?useSSL=false&amp;serverTimezone=UTC" />
+        <property name="url" value="jdbc:mysql://sohyeon-dbinstance-1.cwhladjcpfcr.ap-northeast-2.rds.amazonaws.com:3306/springdb?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false&amp;serverTimezone=UTC" />
         <property name="username" value="admin" />
         <property name="password" value="soso5632#" />
         <property name="maxActive" value="5" />
