@@ -1,7 +1,7 @@
 # HYUNBLING
 
 ### Front End
-* Bootstrap, HTML, JavaScript
+* Bootstrap, HTML, CSS, JavaScript
 
 ### Back End
 * Web Application Server : Apache Tomcat
